@@ -1,4 +1,3 @@
-
 # Day 02
 
 ## What's the difference between a Framework and a Library?
@@ -19,4 +18,3 @@
 5. Singleton is the default scope in Spring Boot. When a bean is configured with the singleton scope, the container creates a single instance of the bean and shares it throughout the application. Any subsequent requests for the bean will be served from the cached instance. This means that all references to the singleton bean within the application point to the same object instance.
 The prototype scope, as the name suggests, creates a new instance of the bean each time it is requested from the container. Unlike the singleton scope, each request for a prototype bean results in a new and independent instance being created. Subsequent requests for the bean will always generate a new instance.
 In summary, the singleton scope in Spring Boot creates a single shared instance of a bean, while the prototype scope creates a new instance of the bean for each request. The choice between singleton and prototype scope depends on the specific requirements of the bean and how it should be managed in terms of state and instance sharing.
-
