@@ -1,11 +1,10 @@
-
-package com.example.demo09queryingmodifyingentities;
+package com.example.demo11simplerestservices;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Demo09QueryingModifyingEntitiesApplicationTests {
+class Demo11SimpleRestServicesApplicationTests {
 
     @Test
     void contextLoads() {

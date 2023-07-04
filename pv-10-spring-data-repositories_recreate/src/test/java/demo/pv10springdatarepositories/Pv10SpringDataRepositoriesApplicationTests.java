@@ -1,11 +1,10 @@
-
-package com.example.demo09queryingmodifyingentities;
+package demo.pv10springdatarepositories;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Demo09QueryingModifyingEntitiesApplicationTests {
+class Pv10SpringDataRepositoriesApplicationTests {
 
     @Test
     void contextLoads() {
